@@ -18,12 +18,15 @@ app.get('/about',(req,res)=>{
 })
 app.get('/login',(req,res)=>{
     res.render('login');
+})
+app.post('/logindone',(req,res)=>{
     console.log(req.body);
+    res.redirect('about');
 })
 app.get('/signup',(req,res)=>{
     res.render('signup');
 })
-app.get('/home',(req,res)=>{
+app.get('/get-signup',(req,res)=>{
     console.log(req.query);
     res.send('ok');
 });
