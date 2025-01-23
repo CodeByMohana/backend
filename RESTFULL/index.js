@@ -18,10 +18,16 @@ app.get('/user/new',(req,res)=>{
 app.post('/users',(req,res)=>{
     console.log(req.body);
     const{name,email,age} = req.body;
-    let user = {name,email,age};
+    let id = Users[Users.length-1];
+    let user = {id,name,email,age};
     Users.push(user);
     res.redirect('/users');
 });
+app.get('/user/:id',(req,res)=>{
+    const {id} = req.params;
+    let user = Users.find((user)=> user.id == id);
+    res.render('show',{user});
+})
 app.listen(4000,()=>{
     console.log('Server is running on port 4000');
 })
