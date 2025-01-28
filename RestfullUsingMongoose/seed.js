@@ -16,13 +16,13 @@ let dummyData = [
   {
     name: "Samsung S21",
     price: 1100,
-    image: "https://www.samsung.com/uk/smartphones/galaxy-s21-5g/buy/hero/hero_black.jpg",
+    image: "https://images.unsplash.com/photo-1736616980443-537d3af09915?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
     description: "This is the latest Samsung",
   },
   {
     name: "OnePlus 9",
     price: 1000,
-    image: "https://cdn.mos.cms.futurecdn.net/7d4a2b7d2b7c2c0e6f7e3c7d0c8c7d0c.jpg",
+    image: "https://plus.unsplash.com/premium_photo-1669349129170-f06dc5e9b68a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b25lJTIwcGx1c3xlbnwwfHwwfHx8MA%3D%3D",
     description: "This is the latest OnePlus",
   },
 ];// dummy data for testing
